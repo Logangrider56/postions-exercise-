@@ -73,3 +73,75 @@ section {
 }
 
 /* START BELOW THIS LINE */
+
+
+/* Static */
+
+
+#power {
+  position: relative;
+  right: 225px;
+}
+
+
+#space {
+  position: relative;
+  right: 115px;
+  top: 115px;
+}
+
+
+#soul {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+#reality {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+}
+
+
+#mind {
+  position: fixed;
+  right: 0;
+}
+
+
+#time {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+
+h1 {
+  position: sticky;
+  top: 0;
+
+ 
+  z-index: 1;
+}
+
+
+#reality {
+  z-index: 3;
+}
+
+
+#soul {
+  z-index: 1;
+}
+
+#time {
+  z-index: 2;
+}
+
+
+h2 {
+  position: sticky;
+  top: 65px;
+}
